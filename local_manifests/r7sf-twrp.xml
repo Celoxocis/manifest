@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ <remote  name="CyanogenMod"
+           fetch="https://github.com/CyanogenMod" />
+  <project path="device/qcom/common" name="android_device_qcom_common" remote="CyanogenMod" revision="cm-13.0"/>
+  <remove-project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-6.0" groups="pdk-cw-fs"/>
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-7.0" groups="pdk-cw-fs"/>
+</manifest>

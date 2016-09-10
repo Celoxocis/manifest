@@ -1,1 +1,1 @@
-# manifest
+# Collection of some manifests

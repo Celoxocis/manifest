@@ -8,6 +8,7 @@
   <project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="github" />
   <project name="CyanogenMod/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" />
   <project name="CyanogenMod/android_kernel_oppo_msm8939" path="kernel/oppo/msm8939" remote="github" />
+  <project name="TheMuppets/proprietary_vendor_oppo" path="vendor/oppo" remote="github" revision="cm-13.0" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />

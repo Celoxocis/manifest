@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="CyanogenMod/android_device_oppo_r7plus" path="device/oppo/r7plus" remote="github" />
+  <project name="CyanogenMod/android_device_oppo_r7sf" path="device/oppo/r7sf" remote="github" />
+  <project name="CyanogenMod/android_device_oppo_msm8939-common" path="device/oppo/msm8939-common" remote="github" />
+  <project name="CyanogenMod/android_device_oppo_common" path="device/oppo/common" remote="github" />
+  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" />
+  <project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="github" />
+  <project name="CyanogenMod/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" />
+  <project name="CyanogenMod/android_kernel_oppo_msm8939" path="kernel/oppo/msm8939" remote="github" />
+  <project name="TheMuppets/proprietary_vendor_oppo" path="vendor/oppo" remote="github" revision="cm-13.0" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
+  <remove-project name="CyanogenMod/android_device_oppo_msm8939-common" path="device/oppo/msm8939-common" remote="github" />
+  <remove-project name="CyanogenMod/android_device_oppo_r7plus" path="device/oppo/r7plus" remote="github" />
+  <remove-project name="CyanogenMod/android_kernel_oppo_msm8939" path="kernel/oppo/msm8939" remote="github" />
+  <project name="Celoxocis/android_kernel_oppo_msm8939" path="kernel/oppo/msm8939" remote="github" revision="cm-14.1" />
+  <project name="Celoxocis/android_device_oppo_msm8939-common" path="device/oppo/msm8939-common" remote="github" revision="cm-13.0" />
+  <remote fetch="https://bitbucket.org/" name="bb" />
+  <project name="mdalexca/arm-eabi-4.9.git" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="bb" revision="master" />
+  <project name="mdalexca/arm-eabi-5.x.git" path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.x" remote="bb" revision="master" />
+  <project name="mdalexca/arm-eabi-6.x.git" path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.x" remote="bb" revision="master" />
+  <project name="mdalexca/arm-eabi-7.0.git" path="prebuilts/gcc/linux-x86/arm/arm-eabi-7.0" remote="bb" revision="master" />
+  <project name="mdalexca/aarch64-linux-android-4.9.git" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="bb" revision="master" />
+  <project name="mdalexca/aarch64-linux-android-4.9-kernel.git" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-kernel" remote="bb" revision="master" />
+  <project name="mdalexca/aarch64-linux-android-5.x-kernel.git" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-5.x-kernel" remote="bb" revision="master" />
+  <project name="mdalexca/aarch64-linux-android-6.x-kernel.git" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x-kernel" remote="bb" revision="master" />
+  <project name="mdalexca/arm-linux-androideabi-4.9.git" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="bb" revision="master" />
+  <project name="mdalexca/arm-linux-androideabi-5.x.git" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.x" remote="bb" revision="master" />
+  <project name="mdalexca/arm-linux-androideabi-6.x.git" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.x" remote="bb" revision="master" />
+</manifest>
